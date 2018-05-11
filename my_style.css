@@ -1,0 +1,295 @@
+
+
+body {
+    background-color:cadetblue;
+    color:azure;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    background-image: url(photos/pro.jpg);
+    background-size: 1300px 357px;
+    background-repeat: no-repeat;
+    
+    
+}
+/*
+@media screen and (max-width:700px)
+{
+    .container 
+    {
+        width: 100%;
+        height: 100%;
+        background-color: black;
+    }
+    
+    #map 
+    {
+        width: 100%;
+    }
+    
+    .mapr 
+    {
+        width: 100%;
+    }
+    
+    .conmap 
+    {
+        width: 100%;
+    }
+    
+    
+}
+*/
+
+#map 
+{
+    float: left;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    border-right: 2px dotted #cccccc;
+}
+
+.mapr
+{
+    float:center;
+    padding: 20px;
+    width: 760px;
+    font-size: 16px;
+    text-align:left;
+    margin-left: 440px;
+    
+}
+
+#conmap
+{
+    background-color: #128870;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    height: 340px;
+}
+
+.video
+{
+ display:block;
+ margin: left;
+    
+
+}
+
+.video video
+{
+    
+    width: 500px;
+    
+
+
+}
+
+.container
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+.logo
+{
+    margin-bottom: 17px
+    
+}
+
+.logo img
+{
+    width: 348px;
+    height: 224px;
+}
+
+.menu
+{
+    background-color: #303030;
+    margin-top: 20px;
+    color:#ffffff;
+    padding: 10px;
+    opacity: 1;
+}
+
+.option
+{
+    float:left;
+    min-width: 50px;
+    height: 25px;
+    font-size: 18px;
+    padding: 10px;
+    border-right: 2px dotted;
+    text-align: center;
+    
+    
+}
+
+.option:hover
+{
+    background-color: #000000;
+    cursor: pointer;
+}
+
+
+
+#content
+{
+    background-color: #128870;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    height: 170px;
+    
+}
+
+
+.contentL
+{
+    float: left;
+    padding: 20px;
+    width: 240px;
+    text-align: center;
+    border-right: 2px dotted #cccccc;
+    
+}
+
+.contentR
+{
+    float:center;
+    padding: 20px;
+    width: 760px;
+    font-size: 16px;
+    text-align:left;
+    margin-left: 280px;
+}
+
+
+.footer
+{
+    clear:both;
+    text-align: left;
+}
+
+.pictures
+{
+    display: inline-block;
+    width: 460px;
+    text-align: center;
+    padding: 5px;
+}
+
+.pictures p 
+{
+    padding: 5px;
+    margin-top: 10px;
+}
+/*---------PHOTO 1--------*/
+.photo1 
+{
+  width: 450px; 
+  overflow: hidden;
+}
+
+.photo1:hover img
+{
+  transform: scale(1.2);
+  opacity: 0.84;
+}
+
+.photo1 img
+{
+  transition: all 0.2s ease-in-out;
+  width: 300px;
+  height: 200px;
+  
+}
+/*---------PHOTO 2--------*/
+.photo2 
+{
+  width: 450px;  
+  transition: all 1.2s ease-in;
+}
+
+.photo2:hover
+{
+  transform: scale(1.2) rotate(360deg);
+  opacity: 0.84;
+}
+
+.photo2 img
+{
+  width: 300px;  
+  height: 200px;
+}
+/*---------PHOTO 3--------*/
+.photo3 
+{
+  width: 450px;  
+  transition: all 0.6s ease-in-out;
+}
+
+.photo3:hover
+{
+  transform: perspective(400px) translate3d(100px,20px, 100px);
+  opacity: 0.84;
+}
+
+.photo3 img
+{
+  width: 300px;  
+  height: 200px;
+
+}
+/*---------PHOTO 4--------*/
+.photo4 
+{
+  width: 450px; 
+  transition: all 0.6s ease-in-out;
+}
+
+.photo4:hover
+{
+  transform: scale(1.2) skew(2deg,4deg);
+  opacity: 0.84;
+}
+
+.photo4 img
+{
+  width: 300px;  
+  height: 200px;
+}
+
+a:link
+{
+    color: blue;
+}
+
+a:visited
+{
+    color:blue;
+}
+
+a:hover
+{
+    color: aqua;
+}
+
+#slider 
+{
+    align-content: center;
+    height: 400px;
+}
+
+#slider img
+{
+    height: 400px;
+    width: auto;
+}
+
